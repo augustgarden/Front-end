@@ -1,0 +1,32 @@
+.Main .Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Main .Header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid #B5B5B5;
+    width: 975px;
+    padding: 10px;
+}
+.Main .Header nav li{
+    float: left;
+    padding-right: 60px;
+}
+.Main .Header nav .icon_wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.Main .Header nav .nav_icon{
+    width: 45px;
+    height: 45px;
+    padding-left: 10px;
+}
+.Main .Header nav form{
+    margin-top: 5px;
+}
+.Main .Header nav .nav_logo{
+    margin-left: 20px;
+}
