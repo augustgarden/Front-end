@@ -13,7 +13,7 @@ function Header(){
                 <a className="nav_logo" style={{fontWeight:"bold",fontSize:"36px"}}>
                     DeVin
                 </a>
-                <ul style={{listStyleType:"None"}}>
+                <ul>
                     <li>프로젝트</li>
                     <li>스터디</li>
                     <li>Q&A</li>
