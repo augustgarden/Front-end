@@ -1,10 +1,11 @@
-body{
+body,h5,h4,p{
     font-family: HanSans;
+    margin:0;
 }
 ul{
     list-style-type:None
-
 }
+
 /* MainPage */
 /* Header */
 .Main .Header{
@@ -86,4 +87,59 @@ ul{
 .Main .Footer Footer .right_wrapper div{
     padding-right: 55px;
     padding-top: 10px;
+}
+
+/* ThemecastContent */
+.Main .ThemecastContent .outer_box{
+    width:200px; 
+    height:165px;
+    background-color:white;
+    box-shadow:2px 2px 8px gray;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.Main .ThemecastContent .outer_box .upper_box{
+    width:200px;
+    height:90px;
+    background-color:#6BB9ED;
+    position:relative;
+}
+.Main .ThemecastContent .outer_box .upper_box .recruit_chip{
+    background-color:#1ABC9C;
+    position: absolute;
+    color:white;
+    width:46px;
+    font-size:10px;
+    top:10px;
+    left:10px;
+}
+.Main .ThemecastContent .outer_box .upper_box .person{
+    color:white;
+    width:68px;
+    height:58px;
+    position:absolute;
+    top:16px;
+    left:66px;
+}
+.Main .ThemecastContent .outer_box .lower_box{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    height:75px;
+}
+.Main .ThemecastContent .lower_box .tag_wrapper{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width: 190px;
+}
+.Main .ThemecastContent .lower_box .tags{
+    height:20px;
+    width:43px;
+    font-size:10px;
+    color:white;
+    background-color:#B5B5B5;
+    margin-right:5px;
 }
